@@ -8,6 +8,8 @@ const Card = ({ updateCard, flipped, matched, icon, index }) => (
    {/*need a onClick handler on the card div to call updateCard*/}
    
    {/*show icon if flipped or matched*/}
+   
+   // Jake says he gave us this code for some reason...not sure why
    {/*<i className={`fa ${icon} fa-5x`} />*/}
 
    {/*do not show icon if not flipped or matched*/}

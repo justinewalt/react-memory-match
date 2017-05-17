@@ -20,7 +20,11 @@ class App extends Component {
     if(gameStarted)
       return(<Game {...this.state} />);
     else
-      return(<PlayerForm username={username} setUsername={this.setUsername} startGame={this.startGame} />);
+      return(<PlayerForm 
+                         username={username} 
+                         setUsername={this.setUsername} 
+                         startGame={this.startGame} 
+             />);
   }
 }
 
